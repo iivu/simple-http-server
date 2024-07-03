@@ -2,6 +2,6 @@ package leocheung.github.com;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        HttpServer.create().run(3333);
     }
 }
